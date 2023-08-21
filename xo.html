@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>XO</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="title" id="t"><span>X O</span> GAME</div>
+      <div class="square" id="item1" onclick="game(this.id)"></div>
+      <div class="square" id="item2" onclick="game(this.id)"></div>
+      <div class="square" id="item3" onclick="game(this.id)"></div>
+      
+      <div class="square" id="item4" onclick="game(this.id)"></div>
+      <div class="square" id="item5" onclick="game(this.id)"></div>
+      <div class="square" id="item6" onclick="game(this.id)"></div>
+
+      <div class="square" id="item7" onclick="game(this.id)"></div>
+      <div class="square" id="item8" onclick="game(this.id)"></div>
+      <div class="square" id="item9" onclick="game(this.id)"></div>
+    </div>
+    <style>
+      .game{
+        text-align: center;
+        color: white;
+        width: 255px;
+        margin: auto;
+      }
+      .title{
+        background-color: #f25;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .square{
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin: 2.46px;
+        background-color: #f25;
+        font-size: 55px;
+      }
+      .square:hover{
+        background-color: black;
+        cursor: pointer;
+      }
+    </style>
+    <script src="xo.js"></script>
+    </body>
+</html>
